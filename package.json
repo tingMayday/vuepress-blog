@@ -1,0 +1,33 @@
+{
+  "name": "tingMayday.github.io",
+  "version": "1.0.0",
+  "description": "My secret hut",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tingMayday/tingMayday.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tingMayday/tingMayday.github.io/issues"
+  },
+  "homepage": "https://github.com/tingMayday/tingMayday.github.io#readme",
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-helper-live2d": "^1.0.0",
+    "vuepress-theme-reco": "^1.1.4"
+  }
+}
