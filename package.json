@@ -27,10 +27,7 @@
     "vuepress": "^1.2.0"
   },
   "dependencies": {
-<<<<<<< HEAD
     "element-ui": "^2.15.3",
-=======
->>>>>>> 7aaaa4f9ff7c1ecda15a0f7666ef95539765cd3f
     "vuepress-plugin-helper-live2d": "^1.0.0",
     "vuepress-theme-reco": "^1.1.4"
   }
