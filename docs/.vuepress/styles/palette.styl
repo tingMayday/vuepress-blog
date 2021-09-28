@@ -1,0 +1,84 @@
+// 默认值   
+$accentColor = #f43534                        // 主题颜色
+
+
+@font-face 
+  font-family 'iconfont'  /* project id 1747830 */
+  src url('//at.alicdn.com/t/font_1747830_acrzxektv5n.eot')
+  src url('//at.alicdn.com/t/font_1747830_acrzxektv5n.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1747830_acrzxektv5n.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1747830_acrzxektv5n.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1747830_acrzxektv5n.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1747830_acrzxektv5n.svg#iconfont') format('svg')
+
+.iconfont 
+  font-family "iconfont" !important
+  font-size 16px
+  font-style normal
+  -webkit-font-smoothing antialiased
+  -moz-osx-font-smoothing grayscale
+
+
+body,div,a,span,ul,li,p
+    margin 0
+
+.navbar
+    background #071021
+    .site-name
+        color: $accentColor
+    .links
+        background none !important
+        .nav-link,
+        .title,
+        .iconfont
+            color: #fff
+        .router-link-active
+            color: $accentColor
+        .nav-dropdown .nav-link
+            color: #333
+
+.search-box input
+    height 1.6rem
+    background url(/assets/img/search.83621669.svg) 0.6rem 0.5rem no-repeat
+    border-radius 5rem !important
+
+.home-blog
+    // background #E8DFD8 !important
+    background #071021 !important
+
+.home-blog .hero
+    margin-bottom: -100px;
+    background-position: center top !important;
+
+
+.home-blog .hero h1
+    display none
+    padding 5rem 0 1rem
+    font-size 1.5rem
+
+.home-blog .hero .description
+    max-width 1126px;
+    margin 0 auto;
+    padding-top 3rem
+    line-height 2
+    font-size 2rem
+    text-align: right;
+    white-space pre
+    font-family 'kaiti'
+
+
+
+.page
+    transform none !important
+
+// 自定义类页面
+.custom-page
+    .page
+        padding-bottom 0
+
+    .page-title, .page-edit, .comments-wrapper
+        display none
+
+    .content__default:not(.custom)
+        padding 0
+        max-width 100%
