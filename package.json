@@ -29,6 +29,6 @@
   "dependencies": {
     "element-ui": "^2.15.3",
     "vuepress-plugin-helper-live2d": "^1.0.0",
-    "vuepress-theme-reco": "^1.1.4"
+    "vuepress-theme-reco": "^1.6.14"
   }
 }
